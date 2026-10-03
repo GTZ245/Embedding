@@ -1,0 +1,15 @@
+Executable      = run.csh 
+Universe        = vanilla
+Priority        = +20
+Input           = /dev/null
+Log          = /tmp/tongzhouguo_$(Cluster).log
+Output       = /dev/null
+Error        = /dev/null
+Initialdir      = $(PWD)
++Experiment     = "PHENIX"
++Job_Type       = "cas"
+Notification    = Error
+
+Arguments       = 0 $(Process) 1
+
+Queue 20000
