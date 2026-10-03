@@ -1,0 +1,16 @@
+Executable      = b_run.csh 
+Universe        = vanilla
+Priority        = +20
+Input           = /dev/null
+GetEnv          = True
+Log             = /dev/null
+Output	        = /dev/null
+Error           = /dev/null
+Initialdir      = $(PWD)
++Experiment     = "PHENIX"
++Job_Type       = "cas"
+Notification    = Error
+
+Arguments       = $(Process)
+
+Queue 20000

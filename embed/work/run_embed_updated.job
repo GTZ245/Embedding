@@ -1,0 +1,16 @@
+
+Universe       = vanilla
+Notification   = Error
+GetEnv         = True
+Initialdir     = $ENV(PWD)
+Executable     = /bin/csh
+Priority       = +20
+Log            = /dev/null 
+Output         = /dev/null
+Error          = /dev/null
+Requirements   = (CPU_Speed >= 1) 
+Rank		       = CPU_Speed
+
+Arguments      = run_embed_updated.csh $(Process) 10000 /phenix/plhf/mitran/Simul/Dileptons/output_single/dst/dst_out_single_00001.root /phenix/plhf/mitran/Simul/Dileptons/real/work/output/CNTmerge_MB-0000409471-0000.root kek0.root kek1.root kek2.root
+
+Queue 200
