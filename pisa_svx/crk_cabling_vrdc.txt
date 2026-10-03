@@ -1,0 +1,471 @@
+#
+# This file contains cabling information of RICH
+#
+# format of this data. Now either
+#   PASS_THROUGH_FEE (real FEE data)
+#   PASS_THROUGH_MC  (monte Carlo in VRDC)
+#
+# This particular file is for old simulation PRDF file produced in
+# VRDC. More recent PRDF files should not use this file.
+# In particular, PASS_THROUGH_MC flag is solely for a compatibility
+# with old MC data.
+#
+# Difference of VRDC PRDF and rea PRDF are
+# (1) packet IDs used in VRDC are 6001 to 6032 in VRDC PRDF.
+#     In reality, 6001-6008, 6011-6018, 6021-6028, 6031-6038 are
+#     used.
+# (2) In VRDC MC, order of the data is (TAC-PRE-POST). In reality,
+#     it is (PRE-POST-TAC)
+# (3) Cabling order is different.
+#
+
+PASS_THROUGH_MC
+#
+# WEST ARM, SOUTH SIDE
+# ======  CRATE 0 =============================
+#
+# TOP LEFT
+#
+    # now this should also accepted
+6001
+SW
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+   5  6  7  8  9
+   0  1  2  3  4
+#     Bottom
+#
+# BOTTOM LEFT
+#
+6002
+SW
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+  15 16 17 18 19
+  10 11 12 13 14
+#     Bottom
+#
+#------------------------------------------
+#
+# TOP RIGHT
+#
+6003
+SW
+RIGHT
+# Viewed from feedthrogh side
+# L <---    -->  R
+#                center
+#       TOP
+   29  28  27  26  25
+   24  23  22  21  20
+#     Bottom
+#
+# BOTTOM RIGHT
+#
+6004
+SW
+RIGHT
+# From feed-through side
+# L <---    -->  R
+#       TOP
+  39 38 37 36 35
+  34 33 32 31 30
+#     Bottom
+#
+# ======  CRATE 1 =============================
+#
+# TOP LEFT
+#
+6005
+SW
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+   45 46 47 48 49
+   40 41 42 43 44
+#     Bottom
+#
+# BOTTOM LEFT
+#
+6006
+SW
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+  55 56 57 58 59
+  50 51 52 53 54
+#     Bottom
+#
+#------------------------------------------
+#
+# TOP RIGHT
+#
+6007
+SW
+RIGHT
+# Viewed from feedthrogh side
+# L <---    -->  R
+#                center
+#       TOP
+   69  68  67  66  65
+   64  63  62  61  60
+#     Bottom
+#
+# BOTTOM RIGHT
+#
+6008
+SW
+RIGHT
+# From feed-through side
+# L <---    -->  R
+#       TOP
+  79 78 77 76 75
+  74 73 72 71 70
+#     Bottom
+#
+# WEST ARM, NORTH SIDE
+# ======  CRATE 2 =============================
+#
+# TOP LEFT
+#
+6009
+NW
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+   5  6  7  8  9
+   0  1  2  3  4
+#     Bottom
+#
+# BOTTOM LEFT
+#
+6010
+NW
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+  15 16 17 18 19
+  10 11 12 13 14
+#     Bottom
+#
+#------------------------------------------
+#
+# TOP RIGHT
+#
+6011
+NW
+RIGHT
+# Viewed from feedthrogh side
+# L <---    -->  R
+#                center
+#       TOP
+   29  28  27  26  25
+   24  23  22  21  20
+#     Bottom
+#
+# BOTTOM RIGHT
+#
+6012
+NW
+RIGHT
+# From feed-through side
+# L <---    -->  R
+#       TOP
+  39 38 37 36 35
+  34 33 32 31 30
+#     Bottom
+#
+# ======  CRATE 3 =============================
+#
+# TOP LEFT
+#
+6013
+NW
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+   45 46 47 48 49
+   40 41 42 43 44
+#     Bottom
+#
+# BOTTOM LEFT
+#
+6014
+NW
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+  55 56 57 58 59
+  50 51 52 53 54
+#     Bottom
+#
+#------------------------------------------
+#
+# TOP RIGHT
+#
+6015
+NW
+RIGHT
+# Viewed from feedthrogh side
+# L <---    -->  R
+#                center
+#       TOP
+   69  68  67  66  65
+   64  63  62  61  60
+#     Bottom
+#
+# BOTTOM RIGHT
+#
+6016
+NW
+RIGHT
+# From feed-through side
+# L <---    -->  R
+#       TOP
+  79 78 77 76 75
+  74 73 72 71 70
+#     Bottom
+#
+# EAST ARM, SOUTH SIDE
+# ======  CRATE 4 =============================
+#
+# TOP LEFT
+#
+6017
+SE
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+   5  6  7  8  9
+   0  1  2  3  4
+#     Bottom
+#
+# BOTTOM LEFT
+#
+6018
+SE
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+  15 16 17 18 19
+  10 11 12 13 14
+#     Bottom
+#
+#------------------------------------------
+#
+# TOP RIGHT
+#
+6019
+SE
+RIGHT
+# Viewed from feedthrogh side
+# L <---    -->  R
+#                center
+#       TOP
+   29  28  27  26  25
+   24  23  22  21  20
+#     Bottom
+#
+# BOTTOM RIGHT
+#
+6020
+SE
+RIGHT
+# From feed-through side
+# L <---    -->  R
+#       TOP
+  39 38 37 36 35
+  34 33 32 31 30
+#     Bottom
+#
+# ======  CRATE 5 =============================
+#
+# TOP LEFT
+#
+6021
+SE
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+   45 46 47 48 49
+   40 41 42 43 44
+#     Bottom
+#
+# BOTTOM LEFT
+#
+6022
+SE
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+  55 56 57 58 59
+  50 51 52 53 54
+#     Bottom
+#
+#------------------------------------------
+#
+# TOP RIGHT
+#
+6023
+SE
+RIGHT
+# Viewed from feedthrogh side
+# L <---    -->  R
+#                center
+#       TOP
+   69  68  67  66  65
+   64  63  62  61  60
+#     Bottom
+#
+# BOTTOM RIGHT
+#
+6024
+SE
+RIGHT
+# From feed-through side
+# L <---    -->  R
+#       TOP
+  79 78 77 76 75
+  74 73 72 71 70
+#     Bottom
+#
+# TOP LEFT
+#
+6025
+NE
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+   5  6  7  8  9
+   0  1  2  3  4
+#     Bottom
+#
+# BOTTOM LEFT
+#
+6026
+NE
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+  15 16 17 18 19
+  10 11 12 13 14
+#     Bottom
+#
+#------------------------------------------
+#
+# TOP RIGHT
+#
+6027
+NE
+RIGHT
+# Viewed from feedthrogh side
+# L <---    -->  R
+#                center
+#       TOP
+   29  28  27  26  25
+   24  23  22  21  20
+#     Bottom
+#
+# BOTTOM RIGHT
+#
+6028
+SE
+RIGHT
+# From feed-through side
+# L <---    -->  R
+#       TOP
+  39 38 37 36 35
+  34 33 32 31 30
+#     Bottom
+#
+# ======  CRATE 5 =============================
+#
+# TOP LEFT
+#
+6029
+SE
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+   45 46 47 48 49
+   40 41 42 43 44
+#     Bottom
+#
+# BOTTOM LEFT
+#
+6030
+NE
+LEFT
+# Viewed from feedthrogh side
+# L <---    -->  R
+# center
+#       TOP
+  55 56 57 58 59
+  50 51 52 53 54
+#     Bottom
+#
+#------------------------------------------
+#
+# TOP RIGHT
+#
+6031
+NE
+RIGHT
+# Viewed from feedthrogh side
+# L <---    -->  R
+#                center
+#       TOP
+   69  68  67  66  65
+   64  63  62  61  60
+#     Bottom
+#
+# BOTTOM RIGHT
+#
+6032
+NE
+RIGHT
+# From feed-through side
+# L <---    -->  R
+#       TOP
+  79 78 77 76 75
+  74 73 72 71 70
+#     Bottom
+#
+# =========== END ============
+
+
+
+
+

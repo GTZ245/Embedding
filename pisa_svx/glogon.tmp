@@ -1,0 +1,6 @@
+macro glogon.tmp
+pisafile PISAEvent.root
+text_file oscar.particles.dat -1 40
+ptrig 1000
+exit
+return

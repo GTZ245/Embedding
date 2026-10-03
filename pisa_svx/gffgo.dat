@@ -1,0 +1,10 @@
+*
+*           GFFGO.DAT for PISA (1999)
+* These GEANT lines are not recognized in pisa.kumac file
+*
+GEOM    1 0 0 0 0 0 0          ! INIT, Int med, Ext med, Geom Print, Hall med
+AUTO    1                      ! GEANT automatic TMED parameter
+*
+*  SWIT is basic control line, change only to get non-compressed output
+*
+SWIT    5 0 1 0 0 0 0 0 0  ! Compressed output, neutron but no neutrino tracking

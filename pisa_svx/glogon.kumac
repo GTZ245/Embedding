@@ -1,0 +1,6 @@
+macro glogon.kumac
+pisafile PISAEvent.root
+text_file oscar.particles.dat -1 500
+ptrig 1000
+exit
+return
