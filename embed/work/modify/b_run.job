@@ -1,0 +1,15 @@
+Executable      = b_run.csh 
+Universe        = vanilla
+Priority        = +20
+Input           = /dev/null
+Log             = /tmp/tongzhouguo_$(Cluster).log
+Output          = /phenix/plhf/tongzhouguo/log/out_$(Process).out
+Error           = /phenix/plhf/tongzhouguo/log/err_$(Process).err
+Initialdir      = $(PWD)
++Experiment     = "PHENIX"
++Job_Type       = "cas"
+Notification    = Error
+
+Arguments       = $(Process)
+
+Queue 5
